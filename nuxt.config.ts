@@ -7,5 +7,5 @@ export default defineNuxtConfig({
     redirect: false
   },
 
-  compatibilityDate: '2024-11-07'
+  compatibilityDate: '2024-12-05'
 })
