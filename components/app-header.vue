@@ -35,10 +35,12 @@ const items = [
   [{
     slot: 'account',
     disabled: true
-  }], [{
+  }],
+   [{
     label: 'Settings',
     icon: 'i-heroicons-cog-8-tooth',
-    onClick: () => navigateTo('/settings/profile')
+    onClick: () => navigateTo('/settings/profile'),
+    
   }, {
     label: 'Sign out',
     icon: 'i-heroicons-arrow-left-on-rectangle',
